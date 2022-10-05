@@ -1,0 +1,33 @@
+html{
+    background-color: bisque;
+}
+body{
+    display: grid;
+}
+header{
+    width: 50vw;
+    background-color: red;
+}
+p{
+    width: 50vw;
+    background-color: green;
+}
+#hold{
+    width: 50vw;
+    background-color: blue;
+}
+
+header{
+    transition: all 1s ease-in-out;
+}
+header:hover{
+    background-color: pink;
+}
+p:active{
+    background-color: greenyellow;
+    font-size: 32px;
+}
+#hold:hover{
+    background-color: aqua;
+    width: 25vw;
+}
