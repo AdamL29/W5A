@@ -21,13 +21,13 @@ header{
     transition: all 1s ease-in-out;
 }
 header:hover{
-    background-color: pink;
+    background-color: palevioletred;
 }
 p:active{
-    background-color: greenyellow;
+    background-color:chartreuse;
     font-size: 32px;
 }
 #hold:hover{
-    background-color: aqua;
+    background-color: aquamarine;
     width: 25vw;
 }
